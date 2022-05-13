@@ -20,3 +20,10 @@ usage: lungmask [-h] [--modeltype {unet}]
                 input output
 ```
 
+
+
+
+
+![截屏2022-05-13 18.15.09](/Users/lee/Study/毕设/前端/code/Automation_LungLobes_Segmentation_Platform/readme.assets/截屏2022-05-13 18.15.09.png)
+
+![截屏2022-05-13 18.15.21](/Users/lee/Study/毕设/前端/code/Automation_LungLobes_Segmentation_Platform/readme.assets/截屏2022-05-13 18.15.21.png)
