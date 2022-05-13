@@ -30,7 +30,7 @@
 
  
 
-![img](file:////private/var/folders/qn/mjlm3mc55w13qcd782l_k2r80000gn/T/com.kingsoft.wpsoffice.mac/wps-lee/ksohtml//wps1.jpg) 
+<img src="./Results/wps1.jpg" alt="img" style="zoom:33%;" /> 
 
 图5-1 平台设计布局
 
@@ -52,7 +52,7 @@ Figure 5-1 Platform Design Layout
 
 ​	nii格式向jpg格式的转换通过nii2jpg()函数调用nibabel库，将nii格式的CT图像旋转90度、获取位置信息、根据x或y或z方向进行切片、重新命名进行输出，方便进行二维的结果图像轮播展示。
 
-![img](file:////private/var/folders/qn/mjlm3mc55w13qcd782l_k2r80000gn/T/com.kingsoft.wpsoffice.mac/wps-lee/ksohtml//wps2.jpg) 
+<img src="./Results/wps2.jpg" alt="img" style="zoom:33%;" /> 
 
 图5-2 指定路径下按序转换后的jpg图像格式
 
@@ -64,7 +64,7 @@ Figure 5-2 Jpg Image Format after Sequential Conversion under the Specified Path
 
 运行时间在无GPU的情况下约为3分钟，使用GPU运算将会大大加快运行效率，极大缩短运行时间，三种模型的肺部分割功能均在1分钟之内即可完。
 
-![img](file:////private/var/folders/qn/mjlm3mc55w13qcd782l_k2r80000gn/T/com.kingsoft.wpsoffice.mac/wps-lee/ksohtml//wps3.jpg) 
+<img src="./Results/wps3.jpg" alt="img" style="zoom:33%;" /> 
 
 图5-3 模型选择
 
@@ -78,13 +78,13 @@ Figure 5-3 Model Selection
 
 从图5-4、图5-5可以看到对肺部分叶或分段均有较好的展示效果，肺叶之间和不同肺段之间边界清晰，轮廓完整，在二维或三维展示中，均有良好的展示效果。
 
-![img](file:////private/var/folders/qn/mjlm3mc55w13qcd782l_k2r80000gn/T/com.kingsoft.wpsoffice.mac/wps-lee/ksohtml//wps4.jpg)![img](file:////private/var/folders/qn/mjlm3mc55w13qcd782l_k2r80000gn/T/com.kingsoft.wpsoffice.mac/wps-lee/ksohtml//wps5.jpg) 
+<img src="./Results/wps5.jpg" alt="img" style="zoom:33%;" /> 
 
 图5-4 二维结果展示
 
 Figure 5-4 Two Dimensional Result Display
 
-![img](file:////private/var/folders/qn/mjlm3mc55w13qcd782l_k2r80000gn/T/com.kingsoft.wpsoffice.mac/wps-lee/ksohtml//wps6.jpg)![img](file:////private/var/folders/qn/mjlm3mc55w13qcd782l_k2r80000gn/T/com.kingsoft.wpsoffice.mac/wps-lee/ksohtml//wps7.jpg) 
+<img src="./Results/wps7.jpg" alt="img" style="zoom:33%;" /> 
 
 图5-5 对分割结果进行三维重建展示
 
